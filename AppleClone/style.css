@@ -1,0 +1,276 @@
+body, html {
+  background-color: white;
+  box-sizing: border-box;
+  padding:0;
+  margin:0;
+}
+
+#navbar {
+  background-color: #323232;
+  height: 40px;
+  color: rgb(245, 245, 247);
+  text-decoration: none;
+  font-size: 10px;
+  overflow: hidden;
+
+}
+
+#navbarpicture {
+  height: 18px;
+  width: 18px;
+  margin-top: 11px;
+}
+
+.navlink {
+  align-items: center;
+  color: white;
+  text-decoration: none;
+  display: block;
+  line-height: 18px;
+  padding-top: 8px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-top: 3px;
+}
+
+#navbarul {
+  display: flex;
+  list-style: none;
+  color: black;
+  box-sizing: content-box;
+  justify-content: center;
+}
+
+.buttonlink {
+  text-decoration: none;
+  line-height: 23px;
+
+}
+
+#sectioncollectionone {
+  background-color: rgb(255, 255, 255);
+	width: 1000%;
+	margin: 0px auto;
+	
+  
+	display: grid;
+	grid-template-rows: 100%;
+	grid-template-columns: 100%;
+	grid-gap: 10px;
+  row-gap: 10px;
+  column-gap: 10px;
+  position: absolute;
+}
+
+#section1 {
+  text-align: center;
+  background-color: #FBFBFD;
+  color: black;
+  width: 100%;
+  height: 100%;
+  padding-top: 40px;
+  padding-bottom: 10px;
+}
+
+#learnandbuy{
+  display: flex;
+  justify-content: center;
+  
+}
+
+#section2 {
+  text-align: center;
+  background-color: #020028;
+  color: white;
+  padding-top: 200px;
+  padding-bottom: 10px;
+  width: 100%;
+  height: 100%;
+
+}
+
+#buttons1 {
+  display: flex;
+  justify-content: center;
+}
+
+
+#section3 {
+  text-align: center;
+  background-color: #010127;
+  color: white;
+  width: 100%;
+  height: 100%;
+  padding-top: 300px;
+  padding-bottom: 0px;
+  position: relative;
+  padding-top: 0px;
+  font-size: 17px;
+}
+
+#section3text {
+  position: absolute;
+  display: inline-block;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 200px;
+  padding-right: 200px;
+  padding-bottom: 200px;
+  padding-top: 200px;
+  word-wrap: break-word;
+  font-size: 1px;
+}
+
+#buttons2 {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.sectioncollection {
+  background-color: rgb(255, 255, 255);
+	width: 100%;
+	margin: 10px auto;
+	
+	display: grid;
+	grid-template-columns: 50% 49.4%;
+  grid-gap: 10px;
+}
+
+#section4 {
+  background-color: black;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+#section5 {
+  background-color: #FBFBFB;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+#section6 {
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  position: relative;
+  
+}
+
+#section6text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 200px;
+  padding-right: 200px;
+}
+
+#section7 {
+  background-color: rgb(0, 0, 0);
+  width: 100%;
+  text-align: center;
+  color: white;
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+#section8 {
+  background-color: #FBFBFB;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 0px;
+  margin: 0 auto;
+}
+
+#section9 {
+  background-color: #FBFBFB;
+  width: 100%;
+  text-align: center;
+  padding-top: 50px;
+  padding-bottom: 0px;
+}
+
+/* images */
+
+#apple3 {
+  width: 100%;
+    height: auto;
+}
+
+    #apple8 {
+      width: 100%;
+      height: auto;
+      }
+
+      #apple9 {
+        width: 100%;
+      
+        }
+      
+      
+.footerlink {
+  text-decoration: none;
+  color: #424245;
+}
+
+
+
+#footer {
+min-width: 1024px;
+position: relative;
+background-color: #F5F5F7;
+align-items: center;
+align-content: center;
+}
+
+#footercontent {
+  margin: 0 auto;
+  max-width: 980px;
+  padding-top: 22px;
+  font-size: 12px;
+  list-style-type: none;
+}
+
+#footnote {
+  padding-top: 10px;
+  padding: 17px 0 11px;
+}
+
+
+.footernav {
+  background-color: #F5F5F7;
+  align-items: center;
+  content: "";
+  display: table;
+  clear: both;
+  font-size: 12px;
+}
+
+.footernavcolumn {
+  float: left;
+  width: 20%;
+  padding: 10px;
+  text-align: left;
+}
+
+.footercolumn-list {
+  list-style-type: none;
+}
+
+
+.footernavtitle {
+  text-align: left;
+  font-size: 12px;
+
+}
